@@ -1,47 +1,30 @@
 [
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
-  "file": "src/main.c",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "src/uart1.c",
   "arguments": [
    "sdcc",
    "-c",
    "-Iinc",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
    "-D__SDCC__",
    "-DSDCC_VERSION=40000",
-   "src/main.c"
+   "src/uart1.c"
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
-  "file": "src/stm8s_it.c",
-  "arguments": [
-   "sdcc",
-   "-c",
-   "-Iinc",
-   "-I../SPL/inc",
-   "-DSTM8S903",
-   "-D_SDCC",
-   "-D_SDCC_",
-   "-D__SDCC",
-   "-D__SDCC__",
-   "-DSDCC_VERSION=40000",
-   "src/stm8s_it.c"
-  ]
- },
- {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "src/milis.c",
   "arguments": [
    "sdcc",
    "-c",
    "-Iinc",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -51,14 +34,14 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "src/delay.c",
   "arguments": [
    "sdcc",
    "-c",
    "-Iinc",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -68,29 +51,63 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
-  "file": "../SPL/src/stm8s_adc1.c",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "src/main.c",
   "arguments": [
    "sdcc",
    "-c",
+   "-Iinc",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
    "-D__SDCC__",
    "-DSDCC_VERSION=40000",
-   "../SPL/src/stm8s_adc1.c"
+   "src/main.c"
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "src/stm8s_it.c",
+  "arguments": [
+   "sdcc",
+   "-c",
+   "-Iinc",
+   "-I../SPL/inc",
+   "-DSTM8S208",
+   "-D_SDCC",
+   "-D_SDCC_",
+   "-D__SDCC",
+   "-D__SDCC__",
+   "-DSDCC_VERSION=40000",
+   "src/stm8s_it.c"
+  ]
+ },
+ {
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "../SPL/src/stm8s_adc2.c",
+  "arguments": [
+   "sdcc",
+   "-c",
+   "-I../SPL/inc",
+   "-DSTM8S208",
+   "-D_SDCC",
+   "-D_SDCC_",
+   "-D__SDCC",
+   "-D__SDCC__",
+   "-DSDCC_VERSION=40000",
+   "../SPL/src/stm8s_adc2.c"
+  ]
+ },
+ {
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_awu.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -100,13 +117,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_beep.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -116,13 +133,29 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "../SPL/src/stm8s_can.c",
+  "arguments": [
+   "sdcc",
+   "-c",
+   "-I../SPL/inc",
+   "-DSTM8S208",
+   "-D_SDCC",
+   "-D_SDCC_",
+   "-D__SDCC",
+   "-D__SDCC__",
+   "-DSDCC_VERSION=40000",
+   "../SPL/src/stm8s_can.c"
+  ]
+ },
+ {
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_clk.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -132,13 +165,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_exti.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -148,13 +181,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_flash.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -164,13 +197,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_gpio.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -180,13 +213,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_i2c.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -196,13 +229,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_itc.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -212,13 +245,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_iwdg.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -228,13 +261,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_rst.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -244,13 +277,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_spi.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -260,13 +293,13 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_tim1.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -276,45 +309,61 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
-  "file": "../SPL/src/stm8s_tim5.c",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "../SPL/src/stm8s_tim2.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
    "-D__SDCC__",
    "-DSDCC_VERSION=40000",
-   "../SPL/src/stm8s_tim5.c"
+   "../SPL/src/stm8s_tim2.c"
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
-  "file": "../SPL/src/stm8s_tim6.c",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "../SPL/src/stm8s_tim3.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
    "-D__SDCC__",
    "-DSDCC_VERSION=40000",
-   "../SPL/src/stm8s_tim6.c"
+   "../SPL/src/stm8s_tim3.c"
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "../SPL/src/stm8s_tim4.c",
+  "arguments": [
+   "sdcc",
+   "-c",
+   "-I../SPL/inc",
+   "-DSTM8S208",
+   "-D_SDCC",
+   "-D_SDCC_",
+   "-D__SDCC",
+   "-D__SDCC__",
+   "-DSDCC_VERSION=40000",
+   "../SPL/src/stm8s_tim4.c"
+  ]
+ },
+ {
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_uart1.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
@@ -324,13 +373,29 @@
   ]
  },
  {
-  "directory": "/home/marek/Programming/STM8/00-STM8S-toolchain",
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
+  "file": "../SPL/src/stm8s_uart3.c",
+  "arguments": [
+   "sdcc",
+   "-c",
+   "-I../SPL/inc",
+   "-DSTM8S208",
+   "-D_SDCC",
+   "-D_SDCC_",
+   "-D__SDCC",
+   "-D__SDCC__",
+   "-DSDCC_VERSION=40000",
+   "../SPL/src/stm8s_uart3.c"
+  ]
+ },
+ {
+  "directory": "/home/rad41089@spseol.cz/PWM/STM8S-toolchain-main",
   "file": "../SPL/src/stm8s_wwdg.c",
   "arguments": [
    "sdcc",
    "-c",
    "-I../SPL/inc",
-   "-DSTM8S903",
+   "-DSTM8S208",
    "-D_SDCC",
    "-D_SDCC_",
    "-D__SDCC",
