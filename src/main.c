@@ -88,14 +88,14 @@ int main(void) {
                     break;
                 }
             }
-            
+
             S1memory = PUSH(S1);
 
             // zvysuje jas
             if (!PUSH(S3) && S3memory) {
-                *color_pointer += 10;
-                if (*color_pointer > 100)
-                    *color_pointer = 0;
+                *color_pointer += 10;   // kdyz dam * pracuji s hodnotou na kterou ukazuje (v tomto pripade r, g a b)
+                if (*color_pointer > 100)  
+                    *color_pointer = 0; 
             }
 
             S3memory = PUSH(S3);
